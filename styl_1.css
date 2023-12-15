@@ -1,0 +1,56 @@
+.top_left, .top_right{
+    background-color: deepskyblue;
+    height: 150px;
+    font-size:120% ;
+    text-align: center;
+    color: white;
+}
+.top_left{
+    width: 25%;
+    float: left;
+}
+.top_right{
+    width: 75%;
+    float: right;
+}
+.baner, footer{
+    background-color: Tomato;
+    text-align: center;
+}
+.baner{
+    height: 200px;
+    color: white;
+}
+.main_left, .main_right{
+    background-color: deepskyblue;
+    height: 350px;
+    width: 50%;
+}
+.main_left{
+    float: left;
+}
+.main_right{
+    float: right;
+    line-height: 25px;
+}
+input{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+.main_left input{
+    width: 300px;
+}
+.main_right input{
+    width: 100px;
+}
+.main_left img{
+    float: right;
+    margin-top: 25px;
+    margin-right:50px;
+}
+.main_right img{
+    float: left;
+    margin-top: 25px;
+    margin-right:50px;
+}
